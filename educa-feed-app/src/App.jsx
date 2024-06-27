@@ -53,6 +53,7 @@ function App() {
             return (
               // eslint-disable-next-line react/jsx-key
               <Post 
+                key={post.id}
                 author={post.author}
                 content={post.content}
                 publishedAt={post.publishedAt}
